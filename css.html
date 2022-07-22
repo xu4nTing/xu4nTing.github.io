@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>background position calc</title>
+    <style>
+        /*類別選擇器*/
+        .emText { color: red;}
+
+        .linda {color: #fcba03;}
+        .mary {color: green;}
+        .paul {color: black;}
+        #latest {color: blue;}/*ID選擇器*/
+        /*tag*/
+        h1,h2,h3,h4,h5,h6 {
+        font-family: 'Noto San TC', sans-serif;
+        color: pink;    
+        }
+        p,a,span,li,label{
+            font-family: 'Open Sans',sans-serif;
+            color: green;
+        }
+        /* "*" 通用選擇器，所有都能套用*/
+        /*有標籤的會套用標籤。沒有標籤到的會套用 "*" */
+
+        div {color: black;}
+        div[title] {color: red;}
+        div[title=fishbecat] {color: green;}
+        div[title~=fishbecat’s] {color: blue;}
+
+        a {color: black;}
+        h1 a {color: red;}
+        #wrapper a {color: green;}
+    </style>
+</head>
+<body>
+    <p class="emText" >我是emText</p>
+
+    <p class="linda mary paul">123</p> <!--可以放入不只一個selector--><!--此處只顯示mary，因為性質相同只取最靠近的-->
+    <p class="mary">123</p>
+    <p class="linda">123</p>
+    <p id="latest">此段會套用藍色</p>
+
+    <!--以下為標籤選擇器-->
+    <li><span>
+        <a href="=portfoio.html" target="_blank">See my portfoio</a>
+    </span></li>
+    <h1>See my portfo</h1>
+
+    <div>此區塊會套用黑色</div>
+    <div title="blog">此區塊會套用紅色</div>
+    <div title="fishbecat">此區塊會套用綠色</div>
+    <div title="fishbecat’s blog">此區塊會套用藍色</div>
+    <!--後代選擇器-->
+    <br>
+    <a>只設定a標籤會套用黑色</a>
+    <h1>
+        <a>在h1裡的a標籤會套用紅色</a>
+    </h1>
+    <div id="wrapper">
+        <a>在ID=wrapper裡的a標籤會套用綠色</a>
+    </div>
+
+</body>
+
+</html>
