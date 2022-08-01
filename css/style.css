@@ -3,6 +3,7 @@ h1,h2,h3,h4,h5,h6{
 }
 p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
+	text-align: 'left';
 }
 img{
 	max-width:100%;
@@ -28,7 +29,7 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #f05f5c;
+    background-color: #202eaa;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
@@ -54,13 +55,13 @@ nav li{
 }
 
 p{
-	font-size: 16px;
-    line-height: 26px;
-    color: #707070;
+	font-size: 20px;
+    line-height: 20px;
+    color: #7c2f2fa1;
 }
 p.lead{
-	color: black;
-	line-height: 31px;
+	color: rgb(88, 9, 9);
+	line-height: 50px;
 }
 #latest {
 	background: rgb(248, 248, 248);
@@ -78,6 +79,7 @@ p.lead{
 	background: rgba(255,255,255,0.3);
     padding: 5px 16px;
     border-radius: 30px;
+	text-align: left;
 }
 #latest h4{
 	font-size: 19px;
@@ -88,9 +90,10 @@ p.lead{
 
 }
 #latest .col-md-4 .outer{
-	box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+	box-shadow: 0 0 8px 0 rgba(112, 21, 21, 0.08);
 	padding: 0px;
 	margin: 0 5px;
+	text-align: left;
 }
 #latest .lower h3{
 	font-size: 21px;
@@ -226,9 +229,9 @@ footer ul{
 }
 #intro .contact .col-md-4{
 	height: 400px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     padding: 66px;
-    text-align: center;
+    text-align: left;
 }
 #intro .contact .col-md-4 h1{
 	color:white;
