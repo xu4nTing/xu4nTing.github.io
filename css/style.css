@@ -19,7 +19,6 @@ nav li{
     height: 70vh;
     margin-bottom: 0px;
 }
-
 #intro .jumbotron .container{
 	position:relative;
     top: 50%;
@@ -90,7 +89,7 @@ p.lead{
 
 }
 #latest .col-md-4 .outer{
-	box-shadow: 0 0 8px 0 rgba(112, 21, 21, 0.08);
+	box-shadow: 15px 15px 10px 5px rgba(112, 21, 21, 0.08);
 	padding: 0px;
 	margin: 0 5px;
 	text-align: left;
